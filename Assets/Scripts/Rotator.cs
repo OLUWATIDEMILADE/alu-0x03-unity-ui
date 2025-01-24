@@ -4,16 +4,11 @@ using UnityEngine;
 
 public class Rotator : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
-        // Rotate the Coin on the x-axis by 45 degrees per second
+        // Making the coin rotate along the x-axis at a 45 degree speed
         transform.Rotate(45 * Time.deltaTime, 0, 0);
 
     }
